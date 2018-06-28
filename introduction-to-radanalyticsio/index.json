@@ -36,7 +36,7 @@
         ]
     },
     "backend": {
-        "trainingid": "openshift-3-9",
+        "trainingid": "openshift-3-7",
         "imageid": "openshift",
         "port": 8443
     }
