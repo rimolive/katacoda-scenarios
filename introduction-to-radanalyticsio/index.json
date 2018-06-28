@@ -5,7 +5,11 @@
     "description": "Understanding what is the RADAnalytics.io project",
     "difficulty": "beginner",
     "time": "20-30 minutes",
-    "files": [],
+    "backend": {
+        "trainingid": "openshift-3-6",
+        "imageid": "openshift",
+        "port": 8443
+    },
     "environment": {
         "showdashboard": true,
         "dashboard": "OpenShift Web Console",
@@ -34,10 +38,5 @@
                 "text": "3installation.md"
             }
         ]
-    },
-    "backend": {
-        "trainingid": "openshift-3-7",
-        "imageid": "openshift",
-        "port": 443
     }
 }
