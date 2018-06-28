@@ -8,11 +8,10 @@
     "files": [],
     "environment": {
         "showdashboard": true,
-        "dashboard": "Web Console",
-        "uilayout": "editor-terminal",
-        "uieditorpath": "/root/installation/",
-        "uisettings": "docker",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-iframe",
+        "hideintro": false,
+        "hidefinish": false
     },
     "details": {
         "intro": {
@@ -23,20 +22,22 @@
         },
         "steps": [
             {
-                "title": "What is Service Mesh and why we need it?",
+                "title": "What is RADAnalytics.io?",
                 "text": "1what-is-radanalyticsio.md"
             },
             {
-                "title": "Istio Details",
+                "title": "RADAnalytics.io Details",
                 "text": "2details.md"
             },
             {
-                "title": "Istio installation",
+                "title": "RADAnalytics.io installation",
                 "text": "3installation.md"
             }
         ]
     },
     "backend": {
-        "imageid": "bash"
+        "trainingid": "openshift-3-9",
+        "imageid": "openshift",
+        "port": 8443
     }
 }
