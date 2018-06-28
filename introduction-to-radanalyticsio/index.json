@@ -1,0 +1,30 @@
+{
+    "pathwayTitle": "Machine Learning with RADAnalytics.io",
+    "title": "Introduction",
+    "icon": "fa-openshift",
+    "description": "Understanding what is the RADAnalytics.io project",
+    "difficulty": "beginner",
+    "time": "20-30 minutes",
+    "files": [],
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Web Console",
+        "uilayout": "editor-terminal",
+        "uieditorpath": "/root/installation/",
+        "uisettings": "java",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "credits": "http://radanalytics.io",
+            "code": "set-env.sh",
+            "courseData": "run-init.sh"
+        },
+        "steps": [
+            { "title": "What is Service Mesh and why we need it?", "text": "1what-is-radanalyticsio.md" },
+            { "title": "Istio Details", "text": "2details.md" },
+            { "title": "Istio installation", "text": "3installation.md" }
+        ]
+      }
+}

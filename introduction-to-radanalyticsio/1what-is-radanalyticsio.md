@@ -1,0 +1,1 @@
+RADanalytics.io is the upstream project used to deploy intelligent applications in OpenShift.
