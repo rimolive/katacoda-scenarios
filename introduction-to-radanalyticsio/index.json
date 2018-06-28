@@ -8,7 +8,7 @@
     "files": [],
     "environment": {
         "showdashboard": true,
-        "dashboard": "Dashboard",
+        "dashboard": "OpenShift Web Console",
         "uilayout": "terminal-iframe",
         "hideintro": false,
         "hidefinish": false
