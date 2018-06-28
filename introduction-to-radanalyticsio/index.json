@@ -11,7 +11,7 @@
         "dashboard": "Web Console",
         "uilayout": "editor-terminal",
         "uieditorpath": "/root/installation/",
-        "uisettings": "java",
+        "uisettings": "docker",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "details": {
@@ -22,9 +22,21 @@
             "courseData": "run-init.sh"
         },
         "steps": [
-            { "title": "What is Service Mesh and why we need it?", "text": "1what-is-radanalyticsio.md" },
-            { "title": "Istio Details", "text": "2details.md" },
-            { "title": "Istio installation", "text": "3installation.md" }
+            {
+                "title": "What is Service Mesh and why we need it?",
+                "text": "1what-is-radanalyticsio.md"
+            },
+            {
+                "title": "Istio Details",
+                "text": "2details.md"
+            },
+            {
+                "title": "Istio installation",
+                "text": "3installation.md"
+            }
         ]
-      }
+    },
+    "backend": {
+        "imageid": "bash"
+    }
 }
